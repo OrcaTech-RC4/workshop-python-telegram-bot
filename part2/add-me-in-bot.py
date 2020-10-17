@@ -219,7 +219,7 @@ def build_menu(buttons, n_cols, header_buttons, footer_buttons):
 
 def main():   
     # Telegram bot token from BotFather, very important do not lose it or reveal it:
-    TELEGRAM_TOKEN = "845632450:AAHZIBiVeGohgPr5F1rqNstHO0PZrsKQv9k"
+    TELEGRAM_TOKEN = "1163718245:AAHmjtOregT9hVc2TZe-Bn-B9kl1GlcWAQ0"
     updater = Updater(TELEGRAM_TOKEN, use_context=True)
 
     # dispatcher to register handlers
