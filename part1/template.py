@@ -7,7 +7,8 @@ def start(update, context):
 
 def main():
     # Get telegram bot token from botfather, and do not lose or reveal it
-    BOT_TOKEN = "1163718245:AAHmjtOregT9hVc2TZe-Bn-B9kl1GlcWAQ0"
+    # TODO: Change below to your bot token
+    BOT_TOKEN = "1163718245:AxxxAHmjtOxxVc2TZe-Bn-B9xxxkl1GlcWAQ0"
 
     # bot updater, refer to https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.updater.html
     updater = Updater(BOT_TOKEN, use_context=True)
