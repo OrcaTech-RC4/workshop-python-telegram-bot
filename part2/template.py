@@ -58,7 +58,7 @@ def error(update, context):
 
 def main():   
     # Telegram bot token from BotFather, very important do not lose it or reveal it:
-    TELEGRAM_TOKEN = "1326912451:AAE2RHt07w-NoekNI8szvbe2U9-mRW1ZQ_M"
+    TELEGRAM_TOKEN = "###"
     updater = Updater(TELEGRAM_TOKEN, use_context=True)
 
     # dispatcher to register handlers
@@ -75,7 +75,7 @@ def main():
 
     # Dispatching the command for /done 
     dispatcher.add_handler(CommandHandler('done', done))
-    
+
     dispatcher.add_error_handler(error)
 
 
